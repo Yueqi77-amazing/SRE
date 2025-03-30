@@ -46,3 +46,28 @@ Idea: The range 147.8.0.0/16
 209.0.14.00000000 -》209.0.14.0/26
 209.0.14.01000000 -》209.0.14.64/26
 ![alt text](image-5.png)
+
+ICMP
+internet control message protocol
+exchange of query or error bet 2 hosts / routers
+generated directly at the ip level
+an icmp can generate another icmp
+
+![alt text](image-12.png)
+echo request/echo reply
+![alt text](image-13.png)
+送回错误信息
+错误 例子： 无法送达 type 3 然后会有 code 的选项
+可以是 host protocol port 无法到达
+
+DHCP
+可以分配@IP 给用户并且提供可配置的 mask 网关 域名 proxy
+可以自动 动态 手动
+UDP 67 server 68 client
+
+首先有一个 client 这个 client 会发送一个 DHCPDISCOVER 广播信息 寻找
+server 只有 DHCP server 会 read and reply
+
+DHCP offer 就是 reply 的过程 他会发送一个广播信息 然后告诉 nt 里所有 pc/ router 这个
+客户的 IP
+![alt text](image-14.png)
