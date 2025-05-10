@@ -71,3 +71,28 @@ server 只有 DHCP server 会 read and reply
 DHCP offer 就是 reply 的过程 他会发送一个广播信息 然后告诉 nt 里所有 pc/ router 这个
 客户的 IP
 ![alt text](image-14.png)
+
+NAT
+network address translation
+mechanism
+allow the use of private addresses but still be able to access the internet
+translating private addresses into public addresses
+
+adv:
+security
+allows to save @IP on the internet
+network administration
+
+static NAT: servers
+Dynamic NAT a range of public@IPS are configured and assigned to private @IPs as needed
+mainly for clients
+
+PAT or NAT by ports or NAT overload
+dynamic NAT
+only from private to public
+
+PAT
+port address translation
+翻译 port too
+
+RIP
